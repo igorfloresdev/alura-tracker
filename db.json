@@ -1,35 +1,50 @@
 {
-    "projetos": [
-      {
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker 3.0"
+    },
+    {
+      "id": 2,
+      "nome": "ByteBank 2.0"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker 3.0"
+      }
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Refatoração do vuex",
+      "projeto": {
         "id": 1,
         "nome": "Alura Tracker 3.0"
       },
-      {
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Teste",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker 3.0"
+      },
+      "id": 3
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "teste",
+      "projeto": {
         "id": 2,
         "nome": "ByteBank 2.0"
-      }
-    ],
-    "tarefas": [
-      {
-        "id": 1,
-        "descricao": "Configuração do ambiente",
-        "projeto": {
-          "id": 1,
-          "nome": "Alura Tracker 3.0"
-        }
       },
-      {
-        "descricao": "Refatoração do vuex 4",
-        "projeto": {
-          "id": 1,
-          "nome": "Alura Tracker 3.0"
-        },
-        "id": 2
-      }
-    ],
-    "usuario": {
-        "id": 13,
-        "nome": "Nathália Neves",
-        "perfil": "Administração"
-      }
-  }
+      "id": 4
+    }
+  ]
+}
